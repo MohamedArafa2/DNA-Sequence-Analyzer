@@ -3,10 +3,10 @@
 A bioinformatics tool for analyzing DNA sequences, performing global and local alignments, calculating nucleotide percentages, and classifying sequences based on alignment scores. The tool also includes a graphical user interface (GUI) using Tkinter, and users can save the results in an Excel file.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Example Workflow](#example-workflow)
-4. [Features](#features)
+1. [Installation](#1.installation)
+2. [Usage](#2.usage)
+3. [Example Workflow](#3.example-workflow)
+4. [Features](#4.features)
 
 
 ## 1.Installation
