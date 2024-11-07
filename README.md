@@ -27,10 +27,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 The main dependencies are:
-1.biopython
-2.pandas
-3.matplotlib
-4.tkinter (usually included with Python)
+1.biopython.
+2.pandas.
+3.matplotlib.
+4.tkinter.
 
 ### 3. Running the Application
 ```
