@@ -21,6 +21,29 @@ A bioinformatics tool for analyzing DNA sequences, performing global and local a
 
 ### 1. Clone the Repository
 
-```bash
+```bas# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### Install the dependencies
+pip install -r requirements.txt
+h
 git clone https://github.com/yourusername/DNA-Sequence-Analyzer.git
 cd DNA-Sequence-Analyzer
+Usage
+1. Load DNA Sequences
+Click on the "Browse Files" button to upload FASTA files containing DNA sequences.
+2. Perform Alignments
+Click on "Perform Alignment" to compute both global and local alignments for the sequences.
+3. Calculate Nucleotide Percentages
+Click on "Calculate Percentages" to compute the percentages of each nucleotide (A, T, G, C) and the CG dinucleotide.
+4. Classify Sequences
+Set a threshold value for classification (default: 900) and click "Classify Sequences" to classify sequences as similar or not similar based on the alignment scores.
+5. Save Output
+Optionally, save the results (alignment scores, percentages, and classifications) to an Excel file by clicking the "Save Output" button.
+Example Workflow
+Upload Files: Select one or more DNA sequence files in FASTA format.
+Align Sequences: Perform global and local alignments between all sequences.
+Calculate Percentages: Calculate the percentages of A, T, G, C, and CG nucleotides.
+Classify Sequences: Classify sequences as "Similar" or "Not Similar" based on the alignment scores.
+Save Results: Save all results to an Excel file.
