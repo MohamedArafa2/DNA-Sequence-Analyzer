@@ -27,17 +27,17 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 The main dependencies are:
-1.biopython.
-2.pandas.
-3.matplotlib.
-4.tkinter.
+1. biopython.
+2. pandas.
+3. matplotlib.
+4. tkinter.
 
 ### 3. Running the Application
 ```
 python main_gui.py
 
 ```
-# Usage
+## Usage
 1. Load DNA Sequences
 Click on the "Browse Files" button to upload FASTA files containing DNA sequences.
 2. Perform Alignments
