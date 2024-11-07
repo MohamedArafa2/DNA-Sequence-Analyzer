@@ -6,8 +6,6 @@ A bioinformatics tool for analyzing DNA sequences, performing global and local a
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Features](#features)
-4. [Contributing](#contributing)
-5. [License](#license)
 
 
 ## Installation
@@ -66,8 +64,4 @@ Save Results: Save all results to an Excel file.
 - **Graphical User Interface**: Intuitive GUI built using Tkinter for easy interaction with the tool.
 - **Save Results**: Save alignment scores, nucleotide percentages, and classifications to an Excel file.
 
-## Contributing
-
-
-## License
 
