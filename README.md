@@ -3,13 +3,13 @@
 A bioinformatics tool for analyzing DNA sequences, performing global and local alignments, calculating nucleotide percentages, and classifying sequences based on alignment scores. The tool also includes a graphical user interface (GUI) using Tkinter, and users can save the results in an Excel file.
 
 ## Table of Contents
-1. [Installation](#1.installation)
-2. [Usage](#2.usage)
-3. [Example Workflow](#3.example-workflow)
-4. [Features](#4.features)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Example Workflow](#example-workflow)
+4. [Features](#features)
 
 
-## 1.Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -38,7 +38,7 @@ The main dependencies are:
 python main_gui.py
 
 ```
-## 2.Usage
+## Usage
 1. Load DNA Sequences
 Click on the "Browse Files" button to upload FASTA files containing DNA sequences.
 2. Perform Alignments
@@ -50,14 +50,14 @@ Set a threshold value for classification (default: 900) and click "Classify Sequ
 5. Save Output
 Optionally, save the results (alignment scores, percentages, and classifications) to an Excel file by clicking the "Save Output" button.
 
-## 3.Example Workflow
+## Example Workflow
 1. Upload Files: Select one or more DNA sequence files in FASTA format.
 2. Align Sequences: Perform global and local alignments between all sequences.
 3. Calculate Percentages: Calculate the percentages of A, T, G, C, and CG nucleotides.
 4. Classify Sequences: Classify sequences as "Similar" or "Not Similar" based on the alignment scores.
 5. Save Results: Save all results to an Excel file.
 
-## 4.Features
+## Features
 
 - **DNA Sequence Analysis**: Load DNA sequences from FASTA files and calculate nucleotide percentages (A, T, G, C, and CG).
 - **Sequence Alignment**: Perform global and local alignment of DNA sequences using Biopython's `pairwise2`.
